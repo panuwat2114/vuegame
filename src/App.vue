@@ -1,27 +1,38 @@
 <template>
   <div id="app">
-     <player/>
+    <br />
+    <img class="rounded-circle" src="" width="20%" />
+    <HelloWorld msg="" />
+    <br />
+    <h1 class="text-light"></h1>
+    <div>
+      <botton />
+    </div>
   </div>
-
 </template>
-
 <script>
-import player from './components/player'
+import HelloWorld from "./components/HelloWorld.vue";
+import botton from "./components/botton.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    player
-  }
-}
+    HelloWorld,
+    botton,
+  },
+};
 </script>
 
 <style>
 #app {
-  font-family:  'Courier New', Courier, monospace;
+  background-image: url(https://i.gifer.com/224C.gif);
+  background-size: 200%;
+  background-size: cover;
+  
+  
+  font-family: 'Courier New', Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: red;
-  margin-top: 60px;
+  color:lightgreen;
 }
 </style>
