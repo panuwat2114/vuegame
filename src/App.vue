@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <br />
-    <img class="rounded-circle" src="" width="20%" />
+    <img class="rounded-circle" src="https://opengameart.org/sites/default/files/fight-inkscape-source_0.svg" width="10%" />
     <HelloWorld msg="" />
     <br />
     <h1 class="text-light"></h1>
